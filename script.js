@@ -1,3 +1,4 @@
+//this is code for the abbreviation so you dont have to rught the hole code out 
 a = document.getElementById("light1");
 b = document.getElementById("light2");
 c = document.getElementById("light3");
@@ -28,7 +29,7 @@ function  hint5(el){
 function  hint6(el){
 	el.src="images/number6.png";
 } 
-
+// this makes it so then the images are clicked and they have the opaque function and when clicked in the bottom they the person in right  
 function checkColors(el){
 if (a.classList.contains("opaque") && b.classList.contains("opaque") && c.classList.contains("opaque") &&  d.classList.contains("opaque") && e.classList.contains("opaque") && f.classList.contains("opaque") && g.classList.contains("opaque") && h.classList.contains("opaque") && i.classList.contains("opaque")){
 		console.log("All lights green!");
